@@ -1,0 +1,80 @@
+body {
+  background-color: #ffffff;
+  background-image: url(../images/mmdd.gif);
+}
+
+*  {
+  font-family: avantgarde, geneva, arial, helvetica, sans-serif; font-size: 12pt;
+}
+
+div {
+  border-style: solid;
+  border-width: 1pt;
+  border-color:  #000000;
+  padding: 5pt;
+  background-color: #ffffff; 
+}
+
+#title {
+  position: absolute;
+  left: 10pt;
+  top: 10pt;
+}
+
+#logo {
+  position: absolute;
+  right: 60pt;
+  top: 10pt;  
+}
+
+#nav {
+  position: absolute;
+  right: 10pt;
+  bottom: 10pt;
+}
+
+a         { color: #000000; }
+a:link    { color: #000000; }
+a:active  { color: #000000; }
+a:visited { color: #000000; }
+a:hover   { color: #999999; }
+a.menu         { color: #000000; Text-Decoration: None;}
+a.menu:link    { color: #000000; Text-Decoration: None;}
+a.menu:active  { color: #000000; Text-Decoration: None;}
+a.menu:visited { color: #000000; Text-Decoration: None;}
+a.menu:hover   { color: #999999; Text-Decoration: None;}
+
+li {
+   padding-bottom: 10pt; 
+}
+#content {
+  position: absolute;
+  left: 60pt;
+  top: 50pt;
+  right: 60pt;
+  bottom: 60pt;
+  padding: 10pt;
+  padding-top: 5pt;
+  overflow: auto;
+}
+
+#addr {
+  position: absolute;
+  left: 60pt;
+  top: 50pt;
+  right: 60pt;
+  bottom: 180pt;
+  padding: 10pt;
+  padding-top: 5pt;
+  overflow: auto;
+}
+
+#map_canvas {
+  position: absolute;
+  left: 60pt;
+  right:500pt;
+  bottom: 10pt;
+  padding: 10pt;
+  padding-top: 5pt;
+  overflow: auto;
+}
